@@ -2,14 +2,25 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Create a Rat object named Remy, 2 years old, weighing 0.5kg
+        Rat rat = new Rat("Remy", 2, 0.5);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        // Display initial rat information
+        System.out.println("Initial Rat Information:");
+        System.out.println("Name: " + rat.getName());
+        System.out.println("Age: " + rat.getAge() + " years");
+        System.out.println("Weight: " + rat.getWeight() + " kg");
+        System.out.println();
+
+        // Perform actions
+        rat.eat(0.2);   // Remy eats 0.2kg of food
+        rat.sleep(5);   // Remy sleeps for 5 hours
+        rat.move(10);   // Remy moves 10 meters
+
+        // Display updated rat information
+        System.out.println("\nUpdated Rat Information:");
+        System.out.println("Name: " + rat.getName());
+        System.out.println("Age: " + rat.getAge() + " years");
+        System.out.println("Weight: " + rat.getWeight() + " kg");
     }
 }
