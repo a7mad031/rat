@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         // Create a Rat object named Remy, 2 years old, weighing 0.5kg
-        Rat rat = new Rat("Remy", 2, 0.5);
+        Rat rat = new Rat("Remy", 2, 0.5, Pattern.BLACK);
 
         // Display initial rat information
         System.out.println("Initial Rat Information:");

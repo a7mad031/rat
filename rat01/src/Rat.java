@@ -5,7 +5,7 @@ public class Rat {
     private double weight;
 
     // Constructor
-    public Rat(String name, int age, double weight) {
+    public Rat(String name, int age, double weight, Pattern pattern) {
         this.name = name;
         this.age = age;
         this.weight = weight;
