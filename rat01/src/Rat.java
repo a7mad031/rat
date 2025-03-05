@@ -65,11 +65,4 @@ public class Rat {
         }
     }
 
-    // Main method to test the Rat class
-    public static void main(String[] args) {
-        Rat rat = new Rat("Remy", 2, 0.5); // Create a Rat object named Remy, 2 years old, weighing 0.5kg
-        rat.eat(0.2); // Remy eats 0.2kg of food
-        rat.sleep(5); // Remy sleeps for 5 hours
-        rat.move(10); // Remy moves 10 meters
-    }
 }
